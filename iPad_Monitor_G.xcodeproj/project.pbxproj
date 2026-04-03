@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006C2E6DDBEF6EA75F4DDFAA /* RTMPSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158BD39579BDB58D38F3172B /* RTMPSettingsView.swift */; };
+		0CC2941988C1616F9C9DF197 /* HaishinKit in Frameworks */ = {isa = PBXBuildFile; productRef = FD81EB2A4D3CF6EB4022BE2F /* HaishinKit */; };
+		0D119F2C7C2321B99A3F00F8 /* VideoQualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EB5191FFAEF48610B1F1C /* VideoQualityView.swift */; };
+		14F147DC9B868C87E53CD3EF /* DeviceSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9543AE304749F4F9E2F06E6 /* DeviceSelectorView.swift */; };
+		15A398218E4079A0A8C12D1A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B99DAFD86B3B48572BE760 /* PreviewView.swift */; };
+		2C54ED53270F16DC2200A9B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562F2A46C21FFA18E5E00A0B /* Foundation.framework */; };
+		5557582B761189429E516BD5 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBCEB4144A5B4A8B958E87 /* CameraService.swift */; };
+		5697C7BF56E6239004CB1FCB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ADBEEEA7981966ACEEA48C /* SettingsView.swift */; };
+		7E35AB2FD1B6BFF99AE799FF /* StreamingStatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB547C93048A017A0ADBFB2 /* StreamingStatusBadge.swift */; };
+		800DBA8C2F0680904EE7B5B6 /* ControlBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1DDC96D12FA80799B46E3 /* ControlBarView.swift */; };
+		8A4EA0487C1EF77B5B63AFAE /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179B98F1623BC1ED72CAD897 /* SettingsViewModel.swift */; };
+		90E72DE00AD9945116E89191 /* StreamingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92882506B4019F2A8C089185 /* StreamingState.swift */; };
+		9388A115B3EB378EE182EBD3 /* PreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B3A2CA33D1A735B1916172 /* PreviewViewModel.swift */; };
+		98D2C5F11A3B4C5D6E7F8891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D2C5F01A3B4C5D6E7F8891 /* Assets.xcassets */; };
+		9A114057DF6D6ABF97AA1805 /* RTMPStreamingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B261248978B99C35C107B /* RTMPStreamingService.swift */; };
+		9E0F25690F80D76588B2E053 /* IOStreamPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E339EAAA34C0F03AF150B /* IOStreamPreviewView.swift */; };
+		BDDD9D394523718472BB1117 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50761E89383968235029703E /* SettingsStore.swift */; };
+		C949D6CB5B189614DB8B58ED /* VideoQualitySettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBA38076A035DE5B0594F07 /* VideoQualitySettings.swift */; };
+		CC169DA2AAF9BD19AA81D8F7 /* AudioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208FB60D1F33B405DBEF924A /* AudioService.swift */; };
+		CD83E867D68953E9DFE9EB04 /* StreamSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4131F3BC36A2DD6F483C64CB /* StreamSettings.swift */; };
+		D5381B74EF6F5BBF336FBE7E /* StatsOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAC9D60596AD07D139F1149 /* StatsOverlayView.swift */; };
+		D74876AA02F2B0772C178C9C /* iPad_Monitor_GApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECC18C855262129C3EF12F0 /* iPad_Monitor_GApp.swift */; };
+		F755B66EF38BB68AA6454408 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3127B90E8EF095887B7E24E2 /* AppEnvironment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		036E339EAAA34C0F03AF150B /* IOStreamPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IOStreamPreviewView.swift; path = iPad_Monitor_G/Features/Preview/IOStreamPreviewView.swift; sourceTree = "<group>"; };
+		158BD39579BDB58D38F3172B /* RTMPSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPSettingsView.swift; path = iPad_Monitor_G/Features/Settings/RTMPSettingsView.swift; sourceTree = "<group>"; };
+		179B98F1623BC1ED72CAD897 /* SettingsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsViewModel.swift; path = iPad_Monitor_G/Features/Settings/SettingsViewModel.swift; sourceTree = "<group>"; };
+		208FB60D1F33B405DBEF924A /* AudioService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioService.swift; path = iPad_Monitor_G/Core/Camera/AudioService.swift; sourceTree = "<group>"; };
+		26B99DAFD86B3B48572BE760 /* PreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewView.swift; path = iPad_Monitor_G/Features/Preview/PreviewView.swift; sourceTree = "<group>"; };
+		272B261248978B99C35C107B /* RTMPStreamingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTMPStreamingService.swift; path = iPad_Monitor_G/Core/Streaming/RTMPStreamingService.swift; sourceTree = "<group>"; };
+		2ECC18C855262129C3EF12F0 /* iPad_Monitor_GApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iPad_Monitor_GApp.swift; path = iPad_Monitor_G/App/iPad_Monitor_GApp.swift; sourceTree = "<group>"; };
+		3127B90E8EF095887B7E24E2 /* AppEnvironment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppEnvironment.swift; path = iPad_Monitor_G/App/AppEnvironment.swift; sourceTree = "<group>"; };
+		3EA1DDC96D12FA80799B46E3 /* ControlBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlBarView.swift; path = iPad_Monitor_G/Shared/Components/ControlBarView.swift; sourceTree = "<group>"; };
+		40E27EAE71434D0D1AC12613 /* iPad_Monitor_G.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPad_Monitor_G.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4131F3BC36A2DD6F483C64CB /* StreamSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamSettings.swift; path = iPad_Monitor_G/Core/Settings/StreamSettings.swift; sourceTree = "<group>"; };
+		50761E89383968235029703E /* SettingsStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsStore.swift; path = iPad_Monitor_G/Shared/Persistence/SettingsStore.swift; sourceTree = "<group>"; };
+		55ADBEEEA7981966ACEEA48C /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = iPad_Monitor_G/Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		562F2A46C21FFA18E5E00A0B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7E67795309BABD06FFA05B4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = iPad_Monitor_G/Resources/Info.plist; sourceTree = "<group>"; };
+		92882506B4019F2A8C089185 /* StreamingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamingState.swift; path = iPad_Monitor_G/Core/Streaming/StreamingState.swift; sourceTree = "<group>"; };
+		98D2C5F01A3B4C5D6E7F8891 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = iPad_Monitor_G/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		A6B3A2CA33D1A735B1916172 /* PreviewViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PreviewViewModel.swift; path = iPad_Monitor_G/Features/Preview/PreviewViewModel.swift; sourceTree = "<group>"; };
+		AA5EB5191FFAEF48610B1F1C /* VideoQualityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoQualityView.swift; path = iPad_Monitor_G/Features/Settings/VideoQualityView.swift; sourceTree = "<group>"; };
+		B9543AE304749F4F9E2F06E6 /* DeviceSelectorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceSelectorView.swift; path = iPad_Monitor_G/Features/DeviceSelector/DeviceSelectorView.swift; sourceTree = "<group>"; };
+		BBB547C93048A017A0ADBFB2 /* StreamingStatusBadge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamingStatusBadge.swift; path = iPad_Monitor_G/Shared/Components/StreamingStatusBadge.swift; sourceTree = "<group>"; };
+		BCAC9D60596AD07D139F1149 /* StatsOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatsOverlayView.swift; path = iPad_Monitor_G/Shared/Components/StatsOverlayView.swift; sourceTree = "<group>"; };
+		BFBA38076A035DE5B0594F07 /* VideoQualitySettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoQualitySettings.swift; path = iPad_Monitor_G/Core/Settings/VideoQualitySettings.swift; sourceTree = "<group>"; };
+		FBEBCEB4144A5B4A8B958E87 /* CameraService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraService.swift; path = iPad_Monitor_G/Core/Camera/CameraService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E380C154F29D79DF2E1295B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C54ED53270F16DC2200A9B7 /* Foundation.framework in Frameworks */,
+				0CC2941988C1616F9C9DF197 /* HaishinKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E13977B02C0E2DA038226FB = {
+			isa = PBXGroup;
+			children = (
+				EEEE9E7960A5E0B2D2C5C118 /* Products */,
+				C10829D17912AEFCC94A74E3 /* Frameworks */,
+				3127B90E8EF095887B7E24E2 /* AppEnvironment.swift */,
+				2ECC18C855262129C3EF12F0 /* iPad_Monitor_GApp.swift */,
+				208FB60D1F33B405DBEF924A /* AudioService.swift */,
+				FBEBCEB4144A5B4A8B958E87 /* CameraService.swift */,
+				4131F3BC36A2DD6F483C64CB /* StreamSettings.swift */,
+				BFBA38076A035DE5B0594F07 /* VideoQualitySettings.swift */,
+				272B261248978B99C35C107B /* RTMPStreamingService.swift */,
+				92882506B4019F2A8C089185 /* StreamingState.swift */,
+				B9543AE304749F4F9E2F06E6 /* DeviceSelectorView.swift */,
+				036E339EAAA34C0F03AF150B /* IOStreamPreviewView.swift */,
+				26B99DAFD86B3B48572BE760 /* PreviewView.swift */,
+				A6B3A2CA33D1A735B1916172 /* PreviewViewModel.swift */,
+				158BD39579BDB58D38F3172B /* RTMPSettingsView.swift */,
+				55ADBEEEA7981966ACEEA48C /* SettingsView.swift */,
+				179B98F1623BC1ED72CAD897 /* SettingsViewModel.swift */,
+				AA5EB5191FFAEF48610B1F1C /* VideoQualityView.swift */,
+				3EA1DDC96D12FA80799B46E3 /* ControlBarView.swift */,
+				BCAC9D60596AD07D139F1149 /* StatsOverlayView.swift */,
+				BBB547C93048A017A0ADBFB2 /* StreamingStatusBadge.swift */,
+				50761E89383968235029703E /* SettingsStore.swift */,
+				98D2C5F01A3B4C5D6E7F8891 /* Assets.xcassets */,
+				7E67795309BABD06FFA05B4E /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		C10829D17912AEFCC94A74E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF462874B3E87D51E2059AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF462874B3E87D51E2059AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				562F2A46C21FFA18E5E00A0B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEEE9E7960A5E0B2D2C5C118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E27EAE71434D0D1AC12613 /* iPad_Monitor_G.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3765FAD5DD98CAC2790DAC /* iPad_Monitor_G */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BFB22D279E8D4DC1667A1F /* Build configuration list for PBXNativeTarget "iPad_Monitor_G" */;
+			buildPhases = (
+				012E9D8D5FCEBB343EF53E87 /* Sources */,
+				E380C154F29D79DF2E1295B9 /* Frameworks */,
+				53ABDCE39A3A60D142E6221F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPad_Monitor_G;
+			packageProductDependencies = (
+				FD81EB2A4D3CF6EB4022BE2F /* HaishinKit */,
+			);
+			productName = iPad_Monitor_G;
+			productReference = 40E27EAE71434D0D1AC12613 /* iPad_Monitor_G.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFFD1EBA9161863546EEC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = AD44AF47A832BF5D1D03E68F /* Build configuration list for PBXProject "iPad_Monitor_G" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E13977B02C0E2DA038226FB;
+			packageReferences = (
+				C750D9C4F62914FC0326E53A /* XCRemoteSwiftPackageReference "HaishinKit" */,
+			);
+			productRefGroup = EEEE9E7960A5E0B2D2C5C118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3765FAD5DD98CAC2790DAC /* iPad_Monitor_G */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53ABDCE39A3A60D142E6221F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D2C5F11A3B4C5D6E7F8891 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		012E9D8D5FCEBB343EF53E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F755B66EF38BB68AA6454408 /* AppEnvironment.swift in Sources */,
+				D74876AA02F2B0772C178C9C /* iPad_Monitor_GApp.swift in Sources */,
+				CC169DA2AAF9BD19AA81D8F7 /* AudioService.swift in Sources */,
+				5557582B761189429E516BD5 /* CameraService.swift in Sources */,
+				CD83E867D68953E9DFE9EB04 /* StreamSettings.swift in Sources */,
+				C949D6CB5B189614DB8B58ED /* VideoQualitySettings.swift in Sources */,
+				9A114057DF6D6ABF97AA1805 /* RTMPStreamingService.swift in Sources */,
+				90E72DE00AD9945116E89191 /* StreamingState.swift in Sources */,
+				14F147DC9B868C87E53CD3EF /* DeviceSelectorView.swift in Sources */,
+				9E0F25690F80D76588B2E053 /* IOStreamPreviewView.swift in Sources */,
+				15A398218E4079A0A8C12D1A /* PreviewView.swift in Sources */,
+				9388A115B3EB378EE182EBD3 /* PreviewViewModel.swift in Sources */,
+				006C2E6DDBEF6EA75F4DDFAA /* RTMPSettingsView.swift in Sources */,
+				5697C7BF56E6239004CB1FCB /* SettingsView.swift in Sources */,
+				8A4EA0487C1EF77B5B63AFAE /* SettingsViewModel.swift in Sources */,
+				0D119F2C7C2321B99A3F00F8 /* VideoQualityView.swift in Sources */,
+				800DBA8C2F0680904EE7B5B6 /* ControlBarView.swift in Sources */,
+				D5381B74EF6F5BBF336FBE7E /* StatsOverlayView.swift in Sources */,
+				7E35AB2FD1B6BFF99AE799FF /* StreamingStatusBadge.swift in Sources */,
+				BDDD9D394523718472BB1117 /* SettingsStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2DFF97AE01BD55CC34B87B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N4T75L57CD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPad_Monitor_G/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.iPad-Monitor-C";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 2;
+				UIInterfaceOrientationLandscapeLeft = UIInterfaceOrientationLandscapeLeft;
+				UIInterfaceOrientationLandscapeRight = UIInterfaceOrientationLandscapeRight;
+			};
+			name = Debug;
+		};
+		7D48E42ACCA8EB5A8DE11A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		87532A5FFC2BC98374459787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N4T75L57CD;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPad_Monitor_G/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.iPad-Monitor-C";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 2;
+				UIInterfaceOrientationLandscapeLeft = UIInterfaceOrientationLandscapeLeft;
+				UIInterfaceOrientationLandscapeRight = UIInterfaceOrientationLandscapeRight;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0321EDE9F566051573904B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BFB22D279E8D4DC1667A1F /* Build configuration list for PBXNativeTarget "iPad_Monitor_G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87532A5FFC2BC98374459787 /* Release */,
+				2DFF97AE01BD55CC34B87B73 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD44AF47A832BF5D1D03E68F /* Build configuration list for PBXProject "iPad_Monitor_G" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0321EDE9F566051573904B6 /* Debug */,
+				7D48E42ACCA8EB5A8DE11A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C750D9C4F62914FC0326E53A /* XCRemoteSwiftPackageReference "HaishinKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/shogo4405/HaishinKit.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD81EB2A4D3CF6EB4022BE2F /* HaishinKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C750D9C4F62914FC0326E53A /* XCRemoteSwiftPackageReference "HaishinKit" */;
+			productName = HaishinKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4FFFD1EBA9161863546EEC11 /* Project object */;
+}

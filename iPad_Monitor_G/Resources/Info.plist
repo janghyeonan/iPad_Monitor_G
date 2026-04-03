@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- 번들 필수 키 -->
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleName</key>
+    <string>패드를모니터로</string>
+    <key>CFBundleDisplayName</key>
+    <string>패드를모니터로</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundlePackageType</key>
+    <string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+
+    <!-- 권한 -->
+    <key>NSCameraUsageDescription</key>
+    <string>UVC 카메라 및 HDMI 캡처 디바이스로 영상을 촬영합니다.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>HDMI 캡처 디바이스의 오디오를 iPad 스피커로 출력합니다.</string>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>로컬 네트워크의 스트리밍 서버에 연결합니다.</string>
+
+    <!-- 화면 방향: 가로 고정 -->
+    <key>UISupportedInterfaceOrientations~ipad</key>
+    <array>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
+
+    <!-- 상태바 숨김 -->
+    <key>UIStatusBarHidden</key>
+    <true/>
+
+</dict>
+</plist>
