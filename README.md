@@ -10,3 +10,17 @@
 - 유료 여부: 제품 구매 시 무료
 
 아이패드를 캡처보드와 연결하면 외부 모니터처럼 사용할 수 있는 iOS 애플리케이션입니다.
+
+## 오픈소스 사용 안내
+
+이 프로젝트는 아래 오픈소스 패키지를 사용합니다.
+
+- HaishinKit.swift (`1.9.9`)  
+  - 저장소: https://github.com/shogo4405/HaishinKit.swift
+  - 라이선스: 해당 저장소 라이선스 정책을 따릅니다.
+
+- Logboard (`2.5.0`)  
+  - 저장소: https://github.com/shogo4405/Logboard
+  - 라이선스: 해당 저장소 라이선스 정책을 따릅니다.
+
+의존성 버전 및 소스 정보는 `Package.resolved`에서 확인할 수 있습니다.
