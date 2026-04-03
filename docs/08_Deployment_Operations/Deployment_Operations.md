@@ -1,5 +1,10 @@
 # 배포/운영 문서
 
+- 회사명: 모모스테이지 엔터테이먼트
+- 담당부서: 서비스개발팀
+- 담당자: 안장현
+- 현재 문서 버전: v1
+
 ## 1. 환경 구분
 - Dev: 로컬 Xcode + 실기기
 - Stage: TestFlight 내부 테스터
@@ -43,13 +48,13 @@
 4. 담당자 배정 후 수정
 5. TestFlight 핫픽스 검증
 
-## 6. 역할(임의 설정)
+## 6. 역할
 | 역할 | 담당 |
 |---|---|
-| Product Owner | PO-01 |
-| iOS Lead | IOS-01 |
-| QA Lead | QA-01 |
-| Release Manager | REL-01 |
+| Product Owner | 안장현 |
+| iOS Lead | 안장현 |
+| QA Lead | 안장현 |
+| Release Manager | 안장현 |
 
 ## 7. 롤백 정책
 - P0 장애 발견 시 즉시 배포 중지

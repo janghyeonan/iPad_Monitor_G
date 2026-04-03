@@ -1,5 +1,10 @@
 # ERD - 데이터 설계서
 
+- 회사명: 모모스테이지 엔터테이먼트
+- 담당부서: 서비스개발팀
+- 담당자: 안장현
+- 현재 문서 버전: v1
+
 ## 1. 현재(v1) 저장 구조
 - 서버 DB 없음
 - `UserDefaults` 로컬 저장 사용
@@ -19,7 +24,7 @@
 - `stream_sessions` 1:N `session_events`
 - `stream_sessions` 1:1 `stream_settings_snapshot`
 
-## 4. 엔터티 초안 (계획)
+## 4. 엔터티 정의 (계획)
 ### users
 | 필드 | 타입 | 제약 |
 |---|---|---|
