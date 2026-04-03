@@ -13,12 +13,18 @@
 
 ## 앱 아이콘
 
-![패드를모니터로 앱 아이콘](iPad_Monitor_G/Resources/Assets.xcassets/AppIcon.appiconset/icon-preview-1024.png)
+<img src="iPad_Monitor_G/Resources/Assets.xcassets/AppIcon.appiconset/icon-preview-1024.png" alt="패드를모니터로 앱 아이콘" width="220" />
 
 ## 앱 소개
 
 `패드를모니터로`는 USB-C iPad를 외부 입력 모니터처럼 사용할 수 있게 만든 iOS 앱입니다.  
 HDMI 캡처 디바이스 또는 UVC 기반 외부 입력 장치를 iPad에 연결하면 실시간 프리뷰를 제공합니다.
+
+## 실사용 화면
+
+<img src="assets/screenshots/IMG_0081.PNG" alt="미연결 안내 화면" width="360" />
+<img src="assets/screenshots/IMG_0082.PNG" alt="실제 연결 프리뷰 화면" width="360" />
+<img src="assets/screenshots/IMG_0083.PNG" alt="컨트롤 표시 프리뷰 화면" width="360" />
 
 ### 주요 기능
 
